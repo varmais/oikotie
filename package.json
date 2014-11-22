@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "cheerio": "^0.18.0",
+    "fast-csv": "^0.5.4",
     "request": "^2.48.0"
   }
 }
