@@ -1,7 +1,7 @@
 oikotie
 =======
 
-Scrape listing data from oikotie.fi. Needs card.json file from search results page as an input.
+Scrape listing data from oikotie.fi. Needs card.json file from search results page as an input. Jooh.
 
 Usage:
 
