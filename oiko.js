@@ -23,10 +23,9 @@ function getListingData(id) {
 			var $ = cheerio.load(body),
 			listing = {};
 
-			$('.widget-card-information-table tr').each(function(i, el) {
-				var prop = $(this).find('th').text().trim(),
-				val = $(this).find('td').text().trim().replace('\n', ' ');
-
+			$('.row.accordion_padding').each(function(i, el) {
+				var prop = $(this).find('.title').text().trim(),
+				val = $(this).find('.property').text().trim().replace('\n', ' ');
 				listing[prop] = val;
 			});
 
